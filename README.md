@@ -12,6 +12,7 @@ This repo is for building the public-facing **landing page** of DeCleanup, which
 - We have:
   - ✅ A Figma file with the full **DeCleanup dApp design** - [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2-(Copy)?node-id=0-1&t=lNZyY6zfO7qvKXgD-1)
   - 🧪 A **separate Figma for the landing page**, currently in the beginning of the process and needing contributors to fix and finalize - [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2-(Copy)?node-id=0-1&t=lNZyY6zfO7qvKXgD-1)
+  - Landing Page Description docs - [Link](https://docs.google.com/document/d/1nBFPjgmb-VK8VvdHqnepuiMcmEgk2AOcd-w6FrDU0Yg/edit?usp=sharing)
 - We’re aiming for a clean, clear, professional, and climate-conscious aesthetic.
 - Font, button styles, and color palette must stay consistent with the dApp design.
 
