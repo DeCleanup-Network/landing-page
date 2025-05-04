@@ -17,3 +17,11 @@ This repo is for building the public-facing **landing page** of DeCleanup, which
 - Font, button styles, and color palette must stay consistent with the dApp design.
 ---
 
+
+---
+
+### 🚧 Contributed Design (by Shyaar Sati Fwatshak)
+
+A complete redesign of the landing page covering all 8 key sections has been submitted in `/landing-page/`.
+
+[Figma File with Designs](https://www.figma.com/file/your-file-link-here)
