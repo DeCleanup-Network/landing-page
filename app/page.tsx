@@ -1,11 +1,13 @@
-import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection"
+import WhatIsDeCleanupNetwork from "@/components/whatis-decleanup";
+import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <TokenizeImpactSection/>
-    </div>
-  )
-}
+    <main>
+      <WhatIsDeCleanupNetwork />
+      <TokenizeImpactSection />
+    </main>
+  );
+};
 
-export default page
+export default Page;
