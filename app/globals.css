@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-family-nunito: var(--font-nunito), sans-serif;
+  --font-family-bebas: var(--font-bebas), sans-serif;
+  --font-family-mono: var(--font-mono), monospace; /* Use monospace as fallback */
 }
 
 @media (prefers-color-scheme: dark) {
