@@ -9,7 +9,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-bebas-neue);
+  --font-family-nunito: var(--font-nunito), sans-serif;
+  --font-family-bebas: var(--font-bebas), sans-serif;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -26,7 +27,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-bebas-neue), sans-serif;
+  font-family: var(--font-family-bebas), sans-serif;
 }
 
 h1 {
