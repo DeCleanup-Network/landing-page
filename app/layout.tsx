@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Nunito, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +11,29 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+
+// Configure Nunito (Google Font)
+const nunito = Nunito({
+  subsets: ['latin'], // Adjust subsets as needed (e.g., 'latin-ext' for extended Latin)
+  display: 'swap', // Prevents layout shift
+  variable: '--font-nunito', // CSS variable for Tailwind
+});
+
+// Configure Bebas Neue (Google Font)
+const bebas = Bebas_Neue({
+  subsets: ['latin'],
+  weight: '400', // Bebas Neue has only one weight
+  display: 'swap',
+  variable: '--font-bebas',
+});
+
+// Configure mono font (assuming a system font or custom font)
+// Option 1: System monospace font
+const mono = {
+  variable: '--font-mono',
+  className: 'font-mono', // Directly use system monospace
+}
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${nunito.variable} ${bebas.variable} antialiased`}
       >
         {children}
       </body>
