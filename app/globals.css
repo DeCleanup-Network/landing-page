@@ -27,7 +27,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-family-bebas), sans-serif;
+  font-family: var(--font-bebas), sans-serif;
 }
 
 h1 {

@@ -13,7 +13,8 @@ module.exports = {
         tertiary: 'var(--yellow)',
       },
       fontFamily: {
-        bebas: ['var(--font-bebas-neue)'],
+        bebas: ['var(--font-bebas)'],
+        nunito: ['var(--font-nunito)'],
       },
     },
   },
