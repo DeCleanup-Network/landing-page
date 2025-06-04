@@ -1,10 +1,10 @@
-import Button from "./ui/Button"
-import Divider from "./ui/Divider"
+import Button from "../ui/Button"
+import Divider from "../ui/Divider"
 
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center h-screen">
         <div className="flex flex-col w-full items-end xl:px-5 px-2">
         <span className="xl:text-[36.82px] py-2 text-2xl">CLEAN UP, SNAP, EARN</span>
         </div>
@@ -21,8 +21,8 @@ const Hero = () => {
             <p className="text-center w-fit max-w-[88ch]">by transforming cleanups into measurable, onchain environmental commodities - called dynamic Impact Products. Through transparent verification, community participation, and scalable incentive models, we drive real-world impact that bridges local actions with global significance.</p>
         </div>
         </div>
-        <Divider/>  
-        <div className="sm:px-5 px-2 mb-4 w-full">
+        <Divider className="mt-16"/>  
+        <div className="sm:px-5 px-2 mb-4  w-full">
         <Button>GET STARTED</Button>
         </div>
         <Divider/>  

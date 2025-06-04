@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/HeroSection/Hero";
 import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection";
 
 const page = () => {
