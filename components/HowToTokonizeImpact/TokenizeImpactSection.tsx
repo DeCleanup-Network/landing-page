@@ -34,7 +34,7 @@ const TokenizeImpactSection = () => {
   ];
 
   return (
-    <div className="h-screen ">
+    <div className="h-screen">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         {/* Hero Section */}
         <div className="text-center flex flex-col md:flex-row lg:text-left">
@@ -47,11 +47,15 @@ const TokenizeImpactSection = () => {
                 backgroundImage: "url('/image1.png')",
               }}
             ></div>
-
-            <div className="absolute top-0 w-[70%] left-0  text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-black uppercase mb-8 lg:mb-12 leading-tight drop-shadow-lg">
-              <div className="bg-[#FAFF00]">How to Tokenize</div>
-              <div className="bg-[#FAFF00] w-80 mt">Impact?</div>
+             <div className="absolute top-0 flex flex-col left-0 text-2xl sm:text-2xl lg:text-5xl xl:text-3xl font-black text-black uppercase leading-relaxed drop-shadow-lg">
+              <div className="inline-block bg-[#FAFF00] text-8xl font-medium">
+               How to Tokenize
+              </div>
+              <div className="inline-block  bg-[#FAFF00] text-8xl font-medium">
+               Impact?
+              </div>
             </div>
+          
           </div>
 
           {/* Right Content - Steps */}
@@ -65,7 +69,7 @@ const TokenizeImpactSection = () => {
                   <div className="text-[#FAFF00] text-base lg:text-4xl font-bold mb-2 ">
                     {step.number}
                   </div>
-                  <div className="text-[#FAFF00] text-base lg:text-4xl font-bold uppercase mb-2 lg:mb-3 ">
+                  <div className="text-[#FAFF00] text-base lg:text-4xl fonbg-[#111111]t-bold uppercase mb-2 lg:mb-3 ">
                     {step.title}
                   </div>
                 </div>
