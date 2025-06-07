@@ -93,15 +93,12 @@ const TokenizeImpactSection = () => {
             </p>
 
             {/* Social Buttons */}
-            <div className="flex border-y border-black flex-col sm:flex-row gap-4 lg:gap-6 p-4 items-center">
+            <div className="flex border-t border-black flex-col sm:flex-row gap-4 lg:gap-6 p-4 items-center">
               <button className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md transform hover:-translate-y-1">
                 Telegram
               </button>
               <button className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md transform hover:-translate-y-1">
                 Twitter
-              </button>
-              <button className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md transform hover:-translate-y-1">
-                Github
               </button>
             </div>
           </div>

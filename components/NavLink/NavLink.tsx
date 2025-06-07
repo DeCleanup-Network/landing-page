@@ -1,5 +1,5 @@
-import React from 'react'
-import Divider from "../ui/Divider"
+import React from "react";
+import Divider from "../ui/Divider";
 
 const NavLink: React.FC = () => {
   const navLinks = [
@@ -10,12 +10,12 @@ const NavLink: React.FC = () => {
     { name: "GITHUB", href: "#github" },
     { name: "USER GUIDE", href: "#user-guide" },
     { name: "BUG REPORT", href: "#bug-report" },
-  ]
+  ];
 
   return (
     <nav className="relative min-h-[120px] overflow-hidden">
       <Divider className="mt-4" />
-      <div className="flex justify-center items-center gap-4 p-5 flex-wrap">
+      <div className="flex justify-between items-center gap-4 p-2 flex-wrap">
         {navLinks.map((link, index) => (
           <a
             key={index}
@@ -28,13 +28,13 @@ const NavLink: React.FC = () => {
         ))}
       </div>
       <Divider className="mb-8" />
-     
+
       <div className="absolute bottom-2 left-0 right-0 flex justify-between px-5 text-xs text-[#111111] font-semibold font-sans">
         <span className="text-[#111111]">DECLEANUP NETWORK 2025©</span>
         <span className="tracking-wide">STELLAR</span>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavLink
+export default NavLink;

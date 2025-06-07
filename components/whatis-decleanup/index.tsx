@@ -104,23 +104,23 @@ export default function WhatIsDeCleanupNetwork() {
     <div className="min-h-screen">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         {/* Horizontal Line Separator */}
-        <div className="w-full h-0.5 bg-black mb-8 lg:mb-12"></div>
+        <div className="hidden md:block w-full h-0.5 bg-black mb-8 lg:mb-12"></div>
 
         {/* Header Section - Title and Description Side by Side */}
         <div className="text-center flex flex-col md:flex-row lg:text-left mb-8 lg:mb-12">
           {/* Left: Title with background image */}
-          <div className="relative md:w-[50%] min-h-[300px] md:min-h-[400px] flex items-center justify-center">
+          <div className="relative md:w-[50%] min-h-[300px] md:min-h-[400px]">
             <div
               className="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover"
               style={{
                 backgroundImage: "url('/image2.png')",
               }}
             ></div>
-            <div className="absolute top-0 left-0 text-2xl sm:text-2xl lg:text-5xl xl:text-3xl font-black text-black uppercase leading-relaxed drop-shadow-lg">
-              <div className="inline-block bg-[#FAFF00] text-8xl font-medium">
+            <div className="absolute  top-0 left-0  font-black text-black uppercase leading-relaxed drop-shadow-lg">
+              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl  font-medium">
                 What is DeCleanup
               </div>
-              <div className="inline-block bg-[#FAFF00] text-8xl font-medium">
+              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl font-medium">
                 Network?
               </div>
             </div>
