@@ -1,13 +1,17 @@
-import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection"
+import WhatIsDeCleanupNetwork from "@/components/whatis-decleanup";
+import Hero from "@/components/HeroSection/Hero";
+import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection";
 import NetworkRoadmapSection from "@/components/NetworkRoadmapSection/NetworkRoadmapSection"
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
+    <main className="flex flex-col text-center uppercase">
+      <Hero />
+      <WhatIsDeCleanupNetwork />
        <NetworkRoadmapSection/>
-      <TokenizeImpactSection/>
-    </div>
-  )
-}
+      <TokenizeImpactSection />
+    </main>
+  );
+};
 
-export default page
+export default Page;
