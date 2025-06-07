@@ -1,4 +1,5 @@
 import React from "react";
+import NavLink from "../NavLink/NavLink";
 
 const TokenizeImpactSection = () => {
   const steps = [
@@ -22,16 +23,6 @@ const TokenizeImpactSection = () => {
     },
   ];
 
-  const navigationItems = [
-    "Litepaper",
-    "User Guide",
-    "Latest Articles",
-    "Karma Cap",
-    "Github",
-    "Docs",
-    "Bug Report",
-    "Donate",
-  ];
 
   return (
     <div className="h-screen">
@@ -47,15 +38,15 @@ const TokenizeImpactSection = () => {
                 backgroundImage: "url('/image1.png')",
               }}
             ></div>
-             <div className="absolute top-0 flex flex-col left-0 text-2xl sm:text-2xl lg:text-5xl xl:text-3xl font-black text-black uppercase leading-relaxed drop-shadow-lg">
+            <div className="absolute top-0 flex flex-col left-0 text-2xl sm:text-2xl lg:text-5xl xl:text-3xl font-black text-black uppercase leading-relaxed drop-shadow-lg">
               <div className="inline-block bg-[#FAFF00] text-8xl font-medium">
-               How to Tokenize
+                How to Tokenize
               </div>
               <div className="inline-block  bg-[#FAFF00] text-8xl font-medium">
-               Impact?
+                Impact?
               </div>
             </div>
-          
+
           </div>
 
           {/* Right Content - Steps */}
@@ -114,24 +105,7 @@ const TokenizeImpactSection = () => {
               </button>
             </div>
           </div>
-
-          {/* Navigation Grid */}
-          {/* <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8 gap-3 lg:gap-4 mt-12 lg:mt-16">
-            {navigationItems.map((item, index) => (
-              <button
-                key={index}
-                className="bg-black/30 hover:bg-black/50 text-yellow-400 hover:text-yellow-300 font-bold text-xs lg:text-sm uppercase px-3 lg:px-4 py-3 lg:py-4 border border-white/20 hover:border-yellow-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg transform hover:-translate-y-1"
-              >
-                {item}
-              </button>
-            ))}
-          </div> */}
-
-          {/* Footer */}
-          <div className="text-white/70 text-xs lg:text-sm space-y-1 pt-8 lg:pt-12">
-            <p>REGEN LAND NETWORK 2025</p>
-            <p>© 2025</p>
-          </div>
+          <NavLink />
         </div>
       </div>
     </div>
