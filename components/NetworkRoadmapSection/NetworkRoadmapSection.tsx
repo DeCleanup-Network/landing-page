@@ -135,8 +135,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00] border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className=" p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>FOUNDATION PHASE</h4>
-                    <p className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>initial community partnerships activated</p>
+                    <h4 className="text-[#FAFF00] text-left text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>FOUNDATION PHASE</h4>
+                    <p className="text-[#58B12F] text-left text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>initial community partnerships activated</p>
                   </div>
                 </div>
               </div>
@@ -146,8 +146,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00]  border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className=" p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>SYSTEM GROWTH</h4>
-                    <p className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>collaboration with regen coordination</p>
+                    <h4 className="text-[#FAFF00] text-left text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>SYSTEM GROWTH</h4>
+                    <p className="text-[#58B12F] text-left text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>collaboration with regen coordination</p>
                   </div>
                 </div>
               </div>
@@ -157,8 +157,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00]  border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className="p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>ACTIVATION</h4>
-                    <p className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>launching global ambassador program</p>
+                    <h4 className="text-[#FAFF00] text-left text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>ACTIVATION</h4>
+                    <p className="text-[#58B12F] text-left text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>launching global ambassador program</p>
                   </div>
                 </div>
               </div>
@@ -168,8 +168,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00]  border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className="p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>REGIONAL SCALING</h4>
-                    <p className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>multi-region coordination and governance</p>
+                    <h4 className="text-[#FAFF00] text-left text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>REGIONAL SCALING</h4>
+                    <p className="text-[#58B12F] text-left text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>multi-region coordination and governance</p>
                   </div>
                 </div>
               </div>
@@ -179,8 +179,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00] border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className=" rounded-lg p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V1</h4>
-                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+                    <h4 className="text-[#FAFF00] text-left text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V1</h4>
+                    <ul className="text-[#58B12F] text-left text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                       <li className="uppercase">BASIC POI SUBMISSION</li>
                       <li className="uppercase">IMPACT PRODUCTS</li>
                       <li className="uppercase">POINTS AND IMPACT VALUE</li>
@@ -194,8 +194,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00] border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className=" rounded-lg p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V2.1</h4>
-                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+                    <h4 className="text-[#FAFF00] text-4xl text-left sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V2.1</h4>
+                    <ul className="text-[#58B12F] text-lg text-left lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                       <li className="uppercase">IMPROVED POI SUBMISSION</li>
                       <li className="uppercase">PERSONAL DASHBOARD</li>
                       <li className="uppercase">REFERRAL SYSTEM</li>
@@ -210,8 +210,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00] border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className="rounded-lg p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V2.2</h4>
-                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 text-left leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V2.2</h4>
+                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight  text-left" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                       <li className="uppercase">$DCU TOKEN LAUNCH</li>
                       <li className="uppercase">STAKING AND LOCKING</li>
                       <li className="uppercase">COMMUNITY VERIFICATION</li>
@@ -228,8 +228,8 @@ const NetworkRoadmapSection = () => {
                 <div className="absolute left-4 top-6 w-3 h-5 bg-[#FAFF00] border-2 border-[#FAFF00] z-20 transform -translate-x-1/2" />
                 <div className="ml-8">
                   <div className="rounded-lg p-4 shadow-lg">
-                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V3</h4>
-                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+                    <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight text-left" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>DAPP V3</h4>
+                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase text-left" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                       <li className="uppercase">NEW IMPACT PRODUCT LEVELS</li>
                       <li className="uppercase">GOVERNANCE TOOLS</li>
                       <li className="uppercase">IMPACT METRICS</li>
@@ -295,7 +295,7 @@ const NetworkRoadmapSection = () => {
         </div>
     
         {/* Community Impact Section */}
-        <div className="mb-11 mt-8 lg:mt-100 lg:mb-40">
+        <div className="mb-11 mt-50 lg:mt-120 lg:mb-40">
              {/* Horizontal Line Separator */}
         <div className="w-full h-0.5 bg-black mb-2 lg:mb-7 lg:mt-11"></div>
           {/* Header Section - Title and Description side by side */}
@@ -306,7 +306,7 @@ const NetworkRoadmapSection = () => {
               </h3>
             </div>
             <div>
-              <p className="text-black text-base sm:text-lg lg:text-3xl font-normal mb-4 mt-2 leading-tight uppercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+              <p className="text-black text-left sm:text-lg lg:text-3xl font-normal mb-4 mt-2 leading-tight uppercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                 ACROSS THE WORLD, INDIVIDUALS AND PARTNERS ARE USING 
                 DECLANUP DAPP TO TURN EVERYDAY ACTIONS INTO VERIFIED 
                 ENVIRONMENTAL IMPACT. THEIR STORIES SHOW WHAT'S 
@@ -319,8 +319,8 @@ const NetworkRoadmapSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:items-start">
             {/* HEM Japan - shorter card */}
             <div className="bg-black text-[#4FA02A] p-4 lg:p-6 rounded-none">
-              <h4 className="text-[#FAFF00] font-black text-lg lg:text-xl uppercase mb-4">HEM JAPAN</h4>
-              <p className="text-[#4FA02A] text-sm lg:text-base font-extrabold leading-tight uppercase">
+              <h4 className="text-[#FAFF00]  text-lg mb-4  lg:text-base font-extrabold text-left leading-tight uppercase">HEM JAPAN</h4>
+              <p className="text-[#4FA02A] text-sm lg:text-base font-extrabold leading-relaxed text-left uppercase">
                 ONE OF OUR EARLIEST PARTNERS, THEY HAVE BEEN ACTIVELY ORGANIZING 
                 AND VERIFYING CLEANUPS ACROSS JAPAN, USING DECLANUP'S SYSTEM AND 
                 OTHER APPS TO TRACK AND RECOGNIZE IMPACT. <br/>
@@ -330,8 +330,8 @@ const NetworkRoadmapSection = () => {
             
             {/* Pestathon - taller card */}
             <div className="bg-black text-[#4FA02A] p-6 lg:p-8 rounded-none">
-              <h4 className="text-[#FAFF00] font-black text-lg lg:text-xl uppercase mb-4">PESATHON</h4>
-              <p className="text-[#4FA02A] text-sm lg:text-base font-extrabold leading-tight uppercase">
+              <h4 className="text-[#FAFF00] font-black text-lg lg:text-xl uppercase text-left mb-4">PESATHON</h4>
+              <p className="text-[#4FA02A] text-sm lg:text-base font-extrabold leading-tight text-left uppercase">
                 PESATHON CAMPAIGN, ORGANIZED BY UNNPLOGGAS IN UNIVERSITY IN NIGERIA 
                 BROUGHT EDUCATION AND ACTION TOGETHER. FOR A WEEK, STUDENTS WERE LEARNING
                 LEARNING ABOUT ENVIRONMENTAL CARE AND ACCOMPLISHING CLEANUPS AT 
@@ -349,13 +349,13 @@ const NetworkRoadmapSection = () => {
         <div className="p-6 lg:p-8 rounded-xl shadow-lg mb-0">
           <div className="text-black leading-relaxed">
             <span className="text-4xl lg:text-6xl font-black mr-300">"</span>
-            <p className="text-black text-base sm:text-lg lg:text-3xl font-normal mb-4 mt-2 leading-tight uppercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+            <p className="text-black text-left sm:text-lg lg:text-3xl font-normal mb-4 mt-2 leading-tight uppercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
               I ENCOURAGE YOU TO DIVE IN DECLANUP DAPP! FIND A COMMUNITY WHERE YOU CAN ENJOY CONTRIBUTING TO SOCIETY. AT 
               DECLANUP DAPP PICKING UP A SINGLE PLASTIC BOTTLE IS WORTH COLLECTING WHEN INTERACTING WITH PARTICIPANTS. AFTER 
               A SNAPSHOT OF YOUR ACTION, YOU CAN TURN THAT INTO A REWARD! START BY TAKING ACTION, SNAPPING A PHOTO, AND 
               RECEIVING REWARDS. THEN, LEARN ABOUT WEB3 TECHNOLOGY TO ACTIVATE THOSE REWARDS. DECLANUP EMPLOYS THE 
               MOST SOPHISTICATED SYSTEM I'VE ENCOUNTERED IN DAPPS, MAKING IT EASIER FOR PEOPLE TO PARTICIPATE IN ENVIRONMENTAL 
-              PROTECTION ACTIVITIES. <span className="font-bebas font-normal text-[30px] ml-200 leading-[102%] tracking-[-0.02em] lowercase"
+              PROTECTION ACTIVITIES. <span className="font-bebas font-normal text-[30px] ml-250  leading-[102%] tracking-[-0.02em] lowercase"
 > Yuichi Hosomo — HEM Japan</span>
             </p>
             <span className="text-4xl lg:text-6xl font-black ml-300">"</span>
