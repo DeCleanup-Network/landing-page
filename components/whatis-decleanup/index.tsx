@@ -21,7 +21,7 @@ function ProblemSection({ hideHeader = false }: ProblemSectionProps) {
     <div>
       {!hideHeader && (
         <div className="mb-6">
-          <h2 className="text-3xl md:text-4xl font-black text-black px-2 py-1 inline-block">
+          <h2 className="text-3xl text-left bg-red-400 md:text-4xl font-black text-black px-2 py-1 inline-block">
             THE PROBLEM
           </h2>
         </div>
@@ -31,10 +31,10 @@ function ProblemSection({ hideHeader = false }: ProblemSectionProps) {
         {problems.map((problem, index) => (
           <div
             key={index}
-            className=" p-4 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] leading-6 xl:min-h-[320px] flex bg-[#4FA02A]"
+            className=" p-4 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] leading-6 xl:min-h-[320px] flex bg-[#4FA02A] items-center md:items-start "
           >
             <h3
-              className="text-lg md:text-xl lg:text-3xl font-bold text-black leading-relaxed"
+              className="text-xl font-normal md:text-xl text-left lg:text-3xl text-black leading-relaxed"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
               {problem.title}
@@ -84,12 +84,12 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
             className="bg-[#111111] p-4 flex items-start flex-col  backdrop-blur-sm border border-white/10 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] xl:min-h-[320px]"
           >
             <h3
-              className="text-[#FAFF00] text-lg md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
+              className="text-[#FAFF00] text-left md:text-center text-5xl md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
               {solution.title}
             </h3>
-            <p className="text-[#58B12F] text-sm md:text-lg  text-start lg:text-2xl font-bold leading-relaxed">
+            <p className="text-[#58B12F] text-sm md:text-lg  text-start lg:text-2xl  leading-relaxed">
               {solution.description}
             </p>
           </div>
@@ -116,7 +116,7 @@ export default function WhatIsDeCleanupNetwork() {
                 backgroundImage: "url('/image2.png')",
               }}
             ></div>
-            <div className="absolute  top-0 left-0  font-black text-black uppercase leading-relaxed drop-shadow-lg">
+            <div className="absolute top-0 left-0 flex flex-col items-start font-black text-black uppercase leading-relaxed drop-shadow-lg">
               <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl  font-medium">
                 What is DeCleanup
               </div>
@@ -126,19 +126,28 @@ export default function WhatIsDeCleanupNetwork() {
             </div>
           </div>
 
+
+
+
+
+
+
+
+
+
           {/* Right: Description */}
           <div className="md:w-[50%] pl-0 md:pl-4 lg:pl-8 mt-4 md:mt-0 flex flex-col">
             <div className="space-y-4 md:space-y-6">
               <div className="font-black">
-                <div className="text-[#000000] text-base md:text-3xl  lg:text-3xl xl:text-4xl leading-tight font-light">
-                  <span className="bg-[#FAFF00] px-1">DECLEANUP</span> NETWORK
+                <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
+                  <span className="bg-[#FAFF00] text-left md:px-1">DECLEANUP</span> NETWORK
                   IS A GLOBAL SYSTEM FOR COORDINATING ENVIRONMENTAL CLEANUPS AND
                   TURNING THEM INTO LONG-LASTING DIGITAL IMPACT.
                 </div>
               </div>
 
               <div className="font-black">
-                <div className="text-[#000000] text-base  md:text-lg lg:text-xl xl:text-4xl leading-tight font-normal">
+                <div className="text-[#000000] text-xl text-left  md:text-lg lg:text-xl xl:text-4xl leading-tight font-normal">
                   IT CONNECTS INDIVIDUALS, GRASSROOTS GROUPS, AND PARTNER
                   ORGANIZATIONS INTO A SHARED ECOSYSTEM, WHERE EVERY CLEANUP
                   BECOMES PART OF A BROADER EFFORT TO REGENERATE THE PLANET.
@@ -146,7 +155,7 @@ export default function WhatIsDeCleanupNetwork() {
               </div>
 
               <div className="font-black">
-                <div className="text-[#000000] text-base md:text-lg lg:text-xl xl:text-4xl leading-tight font-light">
+                <div className="text-[#000000] text-xl text-left md:text-lg lg:text-xl xl:text-4xl leading-tight font-light">
                   BY CONVERTING ACTIONS INTO ONCHAIN DYNAMIC IMPACT PRODUCTS, WE
                   ENABLE RECOGNITION, TRACEABILITY, AND PARTICIPATION ACROSS
                   REGIONS AND COMMUNITIES.
@@ -156,13 +165,20 @@ export default function WhatIsDeCleanupNetwork() {
           </div>
         </div>
 
+
+
+
+
+
+
+
         {/* Horizontal Line Separator */}
-        <div className="w-full h-0.5 bg-black mb-8 lg:mb-8"></div>
+        <div className="w-full hidden  md:block h-0.5 bg-black mb-8 lg:mb-8"></div>
 
         {/* Desktop Layout: Problem-Solution Headers with horizontal line */}
         <div className="hidden md:block mb-8 text-center">
           <div className="flex justify-center items-center space-x-4">
-            <h2 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-black whitespace-nowrap">
+            <h2 className="text-4xl lg:text-6xl xl:text-7xl  font-bold text-black whitespace-nowrap">
               THE PROBLEM
             </h2>
             <div className="flex-grow h-1 bg-black mx-4"></div>
@@ -186,7 +202,7 @@ export default function WhatIsDeCleanupNetwork() {
         <div className="block md:hidden">
           {/* Mobile Problem Section */}
           <div className="mb-8">
-            <div className="mb-6 text-center">
+            <div className="mb-6 text-left"> 
               <h2 className="text-4xl sm:text-5xl font-bold text-black">
                 THE PROBLEM
               </h2>
@@ -206,8 +222,8 @@ export default function WhatIsDeCleanupNetwork() {
 
           {/* Mobile Solution Section */}
           <div>
-            <div className="mb-6 text-center">
-              <h2 className="text-4xl sm:text-5xl font-bold text-yellow-400">
+            <div className="mb-6 text-left md:text-center">
+              <h2 className="text-4xl sm:text-5xl font-bold text-[#FAFF00]">
                 THE SOLUTION
               </h2>
             </div>
