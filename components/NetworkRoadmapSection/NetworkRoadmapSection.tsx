@@ -49,7 +49,7 @@ const NetworkRoadmapSection = () => {
         "MULTICHAIN POAPS",
         "INTEGRATIONS WITH PARTNERS",
       ],
-      color: "black"
+      color: ""
     },
   ];
 
@@ -91,7 +91,7 @@ const NetworkRoadmapSection = () => {
           {/* Desktop Roadmap - Original Style */}
           <div className="hidden lg:grid lg:grid-cols-4 gap-6 relative">
             {/* Connecting lines - visible on larger screens */}
-            <div className="absolute top-32 left-0 w-full">
+            <div className="absolute top-38 left-0 w-full">
               <div className="flex justify-between items-center h-0">
                 <div className="w-1/4 h-0.5 bg-[#4FA02A]"></div>
                 <div className="w-1/4 h-0.5 bg-[#4FA02A]"></div>
@@ -103,17 +103,17 @@ const NetworkRoadmapSection = () => {
             {roadmap.map((item, index) => (
               <div key={index} className="relative">
                 {/* Connection dot */}
-                <div className={`absolute top-30.5 left-2 transform -translate-x-1/2 w-3 h-3 ${item.color} rounded-0 border-2 border-[#FAFF00] z-10 bg-[#FAFF00]`} />
+                <div className={`absolute top-36.5 left-2 transform -translate-x-1/2 w-3 h-3 ${item.color} rounded-0 border-2 border-[#FAFF00] z-10 bg-[#FAFF00]`} />
                 
                 <div className="text-left">
                   <h3 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>
                     {item.phase}
                   </h3>
-                  <p className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>{item.description}</p>
+                  <p className="text-[#58B12F] text-lg lg:text-2x font-normal mb-10 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '77%' }}>{item.description}</p>
 
                   <div className={`${item.color} rounded-xl p-3 shadow-lg`}>
                     <h4 className="text-[#FAFF00] text-4xl sm:text-5xl lg:text-5xl xl:text-5xl uppercase mb-2 leading-tight" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '100%' }}>{item.version}</h4>
-                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-4 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
+                    <ul className="text-[#58B12F] text-lg lg:text-3xl font-normal mb-5 leading-tight lowercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
                       {item.features.map((feature, idx) => (
                         <li key={idx} className="uppercase">{feature}</li>
                       ))}
@@ -127,7 +127,7 @@ const NetworkRoadmapSection = () => {
           {/* Mobile/Tablet Roadmap  */}
           <div className="block lg:hidden">
             {/* Vertical connecting line */}
-            <div className="absolute left-7 top-35 w-2 h-280 bg-[#4FA02A] z-0"></div>
+            <div className="absolute left-7 top-35 w-2 h-317 bg-[#4FA02A] z-0"></div>
             
             <div className="space-y-6 pb-12">
               {/* Point 1 - Foundation Phase */}
@@ -295,9 +295,9 @@ const NetworkRoadmapSection = () => {
         </div>
     
         {/* Community Impact Section */}
-        <div className="mb-5 mt-8 lg:mt-100 lg:mb-40">
+        <div className="mb-11 mt-8 lg:mt-100 lg:mb-40">
              {/* Horizontal Line Separator */}
-        <div className="w-full h-0.5 bg-black mb-4 lg:mb-9 mt-4"></div>
+        <div className="w-full h-0.5 bg-black mb-2 lg:mb-7 lg:mt-11"></div>
           {/* Header Section - Title and Description side by side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             <div>
@@ -348,7 +348,7 @@ const NetworkRoadmapSection = () => {
         {/* Quote Section */}
         <div className="p-6 lg:p-8 rounded-xl shadow-lg mb-0">
           <div className="text-black leading-relaxed">
-            <span className="text-4xl lg:text-6xl font-black">"</span>
+            <span className="text-4xl lg:text-6xl font-black mr-300">"</span>
             <p className="text-black text-base sm:text-lg lg:text-3xl font-normal mb-4 mt-2 leading-tight uppercase" style={{ fontFamily: 'Bebas Neue', letterSpacing: '-0.02em', lineHeight: '102%' }}>
               I ENCOURAGE YOU TO DIVE IN DECLANUP DAPP! FIND A COMMUNITY WHERE YOU CAN ENJOY CONTRIBUTING TO SOCIETY. AT 
               DECLANUP DAPP PICKING UP A SINGLE PLASTIC BOTTLE IS WORTH COLLECTING WHEN INTERACTING WITH PARTICIPANTS. AFTER 
