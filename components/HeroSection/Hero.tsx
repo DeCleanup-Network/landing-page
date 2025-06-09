@@ -10,10 +10,10 @@ const Hero = () => {
         </span>
       </div>
       <Divider />
-      <h1 className="text-4xl">DECLEANUP NETWORK</h1>
+      <h1 className="text-4xl font-family-bebas">DECLEANUP NETWORK</h1>
       <Divider />
       <div className="sm:px-5 px-2 w-full">
-        <h2 className="text-2xl my-4">
+        <h2 className="text-2xl my-4 font-family-bebas">
           Empowering Cleanups. tokenizing impact
         </h2>
         <div className="w-full mb-6 flex flex-col items-center sm:gap-y-2 gap-y-1">

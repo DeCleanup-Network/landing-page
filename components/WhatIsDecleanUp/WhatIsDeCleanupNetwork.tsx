@@ -117,10 +117,10 @@ export default function WhatIsDeCleanupNetwork() {
               }}
             ></div>
             <div className="absolute top-0 left-0 flex flex-col items-start font-black text-black uppercase leading-relaxed drop-shadow-lg">
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl  font-medium">
+              <div className="inline-block bg-[#FAFF00] text-5xl md:text-6xl lg:text-7xl  font-medium">
                 What is DeCleanup
               </div>
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl font-medium">
+              <div className="inline-block bg-[#FAFF00] text-5xl md:text-6xl  lg:text-7xl  font-medium">
                 Network?
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function WhatIsDeCleanupNetwork() {
               </div>
 
               <div className="font-black">
-                <div className="text-[#000000] text-xl text-left  md:text-lg lg:text-xl xl:text-4xl leading-tight font-normal">
+                <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
                   IT CONNECTS INDIVIDUALS, GRASSROOTS GROUPS, AND PARTNER
                   ORGANIZATIONS INTO A SHARED ECOSYSTEM, WHERE EVERY CLEANUP
                   BECOMES PART OF A BROADER EFFORT TO REGENERATE THE PLANET.
@@ -155,7 +155,7 @@ export default function WhatIsDeCleanupNetwork() {
               </div>
 
               <div className="font-black">
-                <div className="text-[#000000] text-xl text-left md:text-lg lg:text-xl xl:text-4xl leading-tight font-light">
+                <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
                   BY CONVERTING ACTIONS INTO ONCHAIN DYNAMIC IMPACT PRODUCTS, WE
                   ENABLE RECOGNITION, TRACEABILITY, AND PARTICIPATION ACROSS
                   REGIONS AND COMMUNITIES.

@@ -64,7 +64,7 @@ const TokenizeImpactSection = () => {
                     {step.title}
                   </div>
                 </div>
-                <div className="text-[#58B12F] text-xl text-left md:text-center  lg:text-3xl md:leading-relaxed">
+                <div className="text-[#58B12F] text-xl text-left lg:text-3xl md:leading-relaxed">
                   {step.description}
                 </div>
               </div>
@@ -82,7 +82,7 @@ const TokenizeImpactSection = () => {
           </div>
           {/* Join Movement Section */}
           <div className="space-y-6 lg:space-y-8">
-            <div className="text-5xl sm:text-5xl lg:text-[202px]  text-black uppercase ">
+            <div className="text-5xl sm:text-5xl lg:text-[190px]  text-black uppercase ">
               Join the Movement
             </div>
 

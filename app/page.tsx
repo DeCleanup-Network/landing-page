@@ -1,4 +1,4 @@
-import WhatIsDeCleanupNetwork from "@/components/whatis-decleanup";
+import WhatIsDeCleanupNetwork from "@/components/WhatIsDecleanUp/WhatIsDeCleanupNetwork";
 import Hero from "@/components/HeroSection/Hero";
 import TokenizeImpactSection from "@/components/HowToTokonizeImpact/TokenizeImpactSection";
 import NetworkRoadmapSection from "@/components/NetworkRoadmapSection/NetworkRoadmapSection"

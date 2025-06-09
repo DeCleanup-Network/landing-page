@@ -27,11 +27,11 @@ const NavLink: React.FC = () => {
           </a>
         ))}
       </div>
-      <Divider className="mb-8" />
+      <Divider className="mt-2" />
 
-      <div className="absolute bottom-2 left-0 right-0 flex justify-between px-5 text-xs text-[#111111] font-semibold font-sans">
-        <span className="text-[#111111]">DECLEANUP NETWORK 2025©</span>
-        <span className="tracking-wide">STELLAR</span>
+      <div className="flex flex-col md:flex-row justify-between text-xs text-[#111111] font-semibold font-sans">
+        <span className="text-[#111111] text-xl">DECLEANUP NETWORK 2025©</span>
+        <span className="tracking-wide text-xl">STELLAR</span>
       </div>
     </nav>
   );

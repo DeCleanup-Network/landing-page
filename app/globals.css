@@ -1,4 +1,6 @@
+
 @import "tailwindcss";
+
 
 :root {
   --background: #58B12F;
@@ -9,8 +11,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-family-nunito: var(--font-nunito), sans-serif;
   --font-family-bebas: var(--font-bebas), sans-serif;
+  --font-family-nunito: var(--font-nunito), sans-serif;
+  
 }
 
 /* @media (prefers-color-scheme: dark) {
