@@ -1,5 +1,6 @@
 import React from "react";
 import NavLink from "../NavLink/NavLink";
+import Link from "next/link";
 
 const TokenizeImpactSection = () => {
   const steps = [
@@ -94,12 +95,12 @@ const TokenizeImpactSection = () => {
 
             {/* Social Buttons */}
             <div className="flex border-t border-black flex-col sm:flex-row gap-4 lg:gap-6 p-4 items-center">
-              <button className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md transform hover:-translate-y-1">
+              <Link href={'https://t.me/EcoSynthesisX/443'} className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1">
                 Telegram
-              </button>
-              <button className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md transform hover:-translate-y-1">
+              </Link>
+              <Link href={'https://x.com/DeCleanupNet/status/1917591927563624903'} className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1">
                 Twitter
-              </button>
+              </Link>
             </div>
           </div>
           <NavLink />
