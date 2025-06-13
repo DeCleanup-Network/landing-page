@@ -172,30 +172,39 @@ export default function WhatIsDeCleanupNetwork() {
 
 
 
+         <div className="hidden md:block">
         {/* Horizontal Line Separator */}
-        <div className="w-full hidden  md:block h-0.5 bg-black mb-8 lg:mb-8"></div>
-
-        {/* Desktop Layout: Problem-Solution Headers with horizontal line */}
-        <div className="hidden md:block mb-8 text-center">
-          <div className="flex justify-center items-center space-x-4">
-            <h2 className="text-4xl lg:text-6xl xl:text-7xl  font-bold text-black whitespace-nowrap">
+        <div className="w-full h-1 bg-black mb-8 lg:mb-12"></div>
+        
+        {/* Problem-Solution Headers with horizontal line */}
+        <div className="mb-8 lg:mb-12">
+          <div className="flex justify-center items-center">
+            <h2 
+              className="text-4xl lg:text-5xl xl:text-6xl font-black text-black whitespace-nowrap pr-8"
+              style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
+            >
               THE PROBLEM
             </h2>
             <div className="flex-grow h-1 bg-black mx-4"></div>
-            <h2 className="text-4xl lg:text-6xl xl:text-7xl font-bold text-[#FAFF00] whitespace-nowrap">
+            <h2 
+              className="text-4xl lg:text-5xl xl:text-6xl font-black text-[#FAFF00] whitespace-nowrap pl-8"
+              style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
+            >
               THE SOLUTION
             </h2>
           </div>
         </div>
 
-        {/* Desktop Layout: Problem-Solution Content Side by Side */}
-        <div className="hidden md:grid md:grid-cols-2 gap-0">
-          <div>
+        {/* Problem-Solution Content Side by Side */}
+        <div className="grid grid-cols-2 gap-0 min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]">
+          <div className="border-r-2 border-black">
             <ProblemSection hideHeader={true} />
           </div>
           <div>
             <SolutionSection hideHeader={true} />
           </div>
+        </div>
+
         </div>
 
         {/* Mobile Layout: Stacked with vertical line */}
