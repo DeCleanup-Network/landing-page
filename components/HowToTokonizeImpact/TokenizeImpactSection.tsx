@@ -87,7 +87,7 @@ const TokenizeImpactSection = () => {
               Join the Movement
             </div>
 
-            <p className="text-black text-base lg:text-5xl  ">
+            <p className="text-black  lg:text-5xl  ">
               Connect with our growing community on social media, and explore
               everything you need to start contributing to a cleaner environment
               today.

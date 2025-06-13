@@ -89,7 +89,7 @@ const NetworkRoadmapSection = () => {
           {/* Desktop Roadmap - Original Style */}
           <div className="hidden lg:grid lg:grid-cols-4 gap-6 2xl:gap-8 3xl:gap-12 relative">
             {/* Connecting lines - visible on larger screens */}
-            <div className="absolute top-38 left-0 w-full">
+            <div className="absolute top-45 left-0 w-full">
               <div className="flex justify-between items-center h-0">
                 <div className="w-1/4 h-0.5 bg-[#4FA02A]"></div>
                 <div className="w-1/4 h-0.5 bg-[#4FA02A]"></div>
@@ -102,7 +102,7 @@ const NetworkRoadmapSection = () => {
               <div key={index} className="relative">
                 {/* Connection dot */}
                 <div
-                  className={`absolute top-36.5 left-2 transform -translate-x-1/2 w-3 h-3 rounded-0 border-2 border-[#FAFF00] z-10 bg-[#FAFF00]`}
+                  className={`absolute top-44 left-2 transform -translate-x-1/2 w-3 h-3 rounded-0 border-2 border-[#FAFF00] z-10 bg-[#FAFF00]`}
                 />
 
                 <div className="text-left">
@@ -159,7 +159,7 @@ const NetworkRoadmapSection = () => {
           {/* Mobile/Tablet Roadmap */}
           <div className="block lg:hidden">
             {/* Vertical connecting line */}
-            <div className="absolute left-7 top-35 w-2 h-317 bg-[#4FA02A] z-0"></div>
+            <div className="absolute left-7 top-35 w-2 h-360 bg-[#4FA02A] z-0"></div>
 
             <div className="space-y-6 pb-12">
               {/* Point 1 - Foundation Phase */}
@@ -447,8 +447,8 @@ const NetworkRoadmapSection = () => {
 
               <div className="flex-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
                 <Image
-                width={600}
-                height={400}
+                  width={600}
+                  height={400}
                   src={galleryImages[2].src}
                   alt={galleryImages[2].alt}
                   className="w-full h-full object-cover"
@@ -459,7 +459,7 @@ const NetworkRoadmapSection = () => {
             {/* Large image on right - full height */}
             <div className="col-span-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
               <Image
-              width={600}
+                width={600}
                 height={400}
                 src={galleryImages[3].src}
                 alt={galleryImages[3].alt}
@@ -506,7 +506,7 @@ const NetworkRoadmapSection = () => {
               </h4>
               <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-lg 3xl:text-xl font-extrabold leading-relaxed text-left uppercase">
                 ONE OF OUR EARLIEST PARTNERS, THEY HAVE BEEN ACTIVELY ORGANIZING
-                AND VERIFYING CLEANUPS ACROSS JAPAN, USING DECLANUP  SYSTEM AND
+                AND VERIFYING CLEANUPS ACROSS JAPAN, USING DECLANUP SYSTEM AND
                 OTHER APPS TO TRACK AND RECOGNIZE IMPACT. <br />
                 IN 2024 12 ACTIVE USERS, 9 CLEANUP EVENTS REGISTERED
               </p>
@@ -533,36 +533,55 @@ const NetworkRoadmapSection = () => {
         <div className="w-full h-0.5 bg-black mb-4 lg:mb-9 2xl:mb-12 3xl:mb-16"></div>
 
         {/* Quote Section with responsive typography */}
-        <div className="p-6 lg:p-8 2xl:p-10 3xl:p-12 rounded-xl  mb-0">
-          <div className="relative text-black leading-relaxed">
-            <span className="text-4xl  lg:text-8xl 2xl:text-8xl 3xl:text-8xl font-black md:mr-490">
-               &quot;
-            </span>
-            <p
-              className="text-black text-left sm:text-lg lg:text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mb-4 mt-2 leading-tight uppercase"
-              style={{
-                fontFamily: "Bebas Neue",
-                letterSpacing: "-0.02em",
-                lineHeight: "102%",
-              }}
-            >
-              I ENCOURAGE YOU TO DIVE IN DECLANUP DAPP! FIND A COMMUNITY WHERE
-              YOU CAN ENJOY CONTRIBUTING TO SOCIETY. AT DECLANUP DAPP PICKING UP
-              A SINGLE PLASTIC BOTTLE IS WORTH COLLECTING WHEN INTERACTING WITH
-              PARTICIPANTS. AFTER A SNAPSHOT OF YOUR ACTION, YOU CAN TURN THAT
-              INTO A REWARD! START BY TAKING ACTION, SNAPPING A PHOTO, AND
-              RECEIVING REWARDS. THEN, LEARN ABOUT WEB3 TECHNOLOGY TO ACTIVATE
-              THOSE REWARDS. DECLANUP EMPLOYS THE MOST SOPHISTICATED SYSTEM I&apos;VE
-
-              ENCOUNTERED IN DAPPS, MAKING IT EASIER FOR PEOPLE TO PARTICIPATE
-              IN ENVIRONMENTAL PROTECTION ACTIVITIES.
-              {/* <span className="font-bebas font-normal text-[30px] 2xl:text-[36px] 3xl:text-[42px] ml-250 leading-[102%] tracking-[-0.02em] lowercase">— Yuichi Hosomo — HEM Japan</span> */}
-            </p>
-            <span className="text-4xl lg:text-6xl 2xl:text-7xl 3xl:text-8xl font-black md:ml-500">
-               &quot;
+        <div className=" p-6 lg:p-8 2xl:p-10 3xl:p-12 rounded-xl mb-0 relative">
+          {/* Opening Quote Mark */}
+          <div className="absolute top-4 left-4 lg:top-6 lg:left-6">
+            <span className="text-6xl lg:text-8xl font-black text-black leading-none opacity-60">
+              &quot;
             </span>
           </div>
-        </div>     
+
+          {/* Main Quote Text */}
+          <div className="relative text-black leading-relaxed pt-8 lg:pt-12 px-4 lg:px-8">
+            <p
+              className="text-black text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-normal mb-6 leading-tight uppercase tracking-tight"
+              style={{
+                fontFamily: "Bebas Neue, Arial Black, sans-serif",
+                letterSpacing: "-0.02em",
+                lineHeight: "1.1",
+              }}
+            >
+              I ENCOURAGE YOU TO DIVE IN DECLEANUP DAPP! FIND A COMMUNITY WHERE
+              YOU CAN ENJOY CONTRIBUTING TO SOCIETY. AT DECLEANUP EVEN PICKING
+              UP A SINGLE PLASTIC BOTTLE IN YOUR DAILY LIFE CAN TRANSFORM INTO A
+              FUN ACTIVITY. BY TAKING A SNAPSHOT OF YOUR ACTION, YOU CAN TURN
+              THAT INTO A REWARD! START BY TAKING ACTION, SNAPPING A PHOTO, AND
+              RECEIVING REWARDS. THEN, LEARN ABOUT WEB3 TECHNOLOGY TO ACTIVATE
+              THOSE REWARDS. DECLEANUP EMPLOYS THE MOST SIMPLIFIED SYSTEM
+              I&apos;VE ENCOUNTERED IN DAPPS, MAKING IT EASIER FOR PEOPLE TO
+              PARTICIPATE IN ENVIRONMENTAL PROTECTION ACTIVITIES.
+            </p>
+
+            {/* Attribution */}
+            <div className="flex justify-end items-center mt-8">
+              <div className="text-right">
+                <p
+                  className="text-black font-bold text-sm lg:text-base uppercase tracking-wide"
+                  style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
+                >
+                  YUICHI HOSONO — NEW JAPAN
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Closing Quote Mark */}
+          <div className="absolute bottom-4 right-4 lg:bottom-6 lg:right-6">
+            <span className="text-6xl lg:text-8xl font-black text-black leading-none opacity-60">
+              &quot;
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
