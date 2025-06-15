@@ -84,7 +84,7 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
             className="bg-[#111111] p-4 flex items-start flex-col  backdrop-blur-sm border border-white/10 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] xl:min-h-[320px]"
           >
             <h3
-              className="text-[#FAFF00] text-left md:text-center text-5xl md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
+              className="text-[#FAFF00] text-left md:text-center text-4xl md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
               {solution.title}

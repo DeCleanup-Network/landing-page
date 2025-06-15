@@ -14,7 +14,7 @@ const NavLink = () => {
   ];
 
   return (
-    <nav className="relative  overflow-hidden">
+    <nav className="relative  overflow-hidden ">
       <Divider className="" />
       
       {/* Mobile Layout - Grid (2x3 + 1) */}

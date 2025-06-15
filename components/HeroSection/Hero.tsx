@@ -32,7 +32,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <Divider className="mt-16" />
+      <Divider className="md:mt-16" />
       <div className="sm:px-5 px-2 mb-4  w-full">
         <Button className="hover:bg-black/80">GET STARTED</Button>
       </div>

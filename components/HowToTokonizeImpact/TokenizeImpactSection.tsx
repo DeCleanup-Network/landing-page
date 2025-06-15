@@ -26,7 +26,7 @@ const TokenizeImpactSection = () => {
 
 
   return (
-    <div className="h-screen">
+    <div className="md:h-screen ">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         {/* Hero Section */}
         <div className="text-center flex flex-col md:flex-row lg:text-left">
@@ -74,7 +74,7 @@ const TokenizeImpactSection = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center space-y-8  mt-12 lg:mt-16">
+        <div className="text-center md:space-y-8   mt-12 lg:mt-16">
           {/* Get Started Button */}
           <div className="w-full border-y border-black p-3">
             <button className=" bg-black w-full hover:bg-black/80  text-[#FAFF00] font-black text-xl lg:text-5xl uppercase px-8 lg:px-12 py-4 lg:py-5  hover:shadow-2xl shadow-lg transform">
