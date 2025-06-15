@@ -51,7 +51,7 @@ const TokenizeImpactSection = () => {
         
 
           {/* Right Content - Steps */}
-          <div className="space-y-4 lg:space-y-6 md:w-[50%] pl-4 lg:pl-8 mt-5 md:mt-0">
+          <div className="space-y-4 lg:space-y-6 md:w-[50%] md:pl-4 lg:pl-8 mt-5 md:mt-0">
             {steps.map((step, index) => (
               <div
                 key={index}
@@ -87,7 +87,7 @@ const TokenizeImpactSection = () => {
               Join the Movement
             </div>
 
-            <p className="text-black  lg:text-5xl  ">
+            <p className="text-black  lg:text-5xl">
               Connect with our growing community on social media, and explore
               everything you need to start contributing to a cleaner environment
               today.

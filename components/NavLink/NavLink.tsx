@@ -14,8 +14,8 @@ const NavLink = () => {
   ];
 
   return (
-    <nav className="relative p-4 overflow-hidden">
-      <Divider className="mt-4 " />
+    <nav className="relative  overflow-hidden">
+      <Divider className="" />
       
       {/* Mobile Layout - Grid (2x3 + 1) */}
       <div className="block md:hidden">
@@ -24,7 +24,7 @@ const NavLink = () => {
             <a
               key={index}
               href={link.href}
-              className="bg-black text-yellow-400 text-sm font-bold rounded px-4 py-3 text-center tracking-wide uppercase transition-all duration-300 border-2 border-transparent whitespace-nowrap hover:bg-gray-800 hover:border-yellow-400 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:border-white focus:ring-2 focus:ring-white/50 active:translate-y-0"
+              className="bg-black text-[#FAFF00] text-sm font-bold rounded px-4 py-3 text-center tracking-wide uppercase transition-all duration-300 border-2 border-transparent whitespace-nowrap hover:bg-gray-800 hover:border-yellow-400 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:border-white focus:ring-2 focus:ring-white/50 active:translate-y-0"
               style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
               aria-label={`View ${link.name}`}
             >
@@ -36,7 +36,7 @@ const NavLink = () => {
         <div className="flex justify-center">
           <a
             href={navLinks[6].href}
-            className="bg-black text-yellow-400 text-sm font-bold rounded px-4 py-3 text-center tracking-wide uppercase transition-all duration-300 border-2 border-transparent whitespace-nowrap hover:bg-gray-800 hover:border-yellow-400 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:border-white focus:ring-2 focus:ring-white/50 active:translate-y-0"
+            className="bg-black text-[#FAFF00] text-sm font-bold rounded px-4 py-3 text-center tracking-wide uppercase transition-all duration-300 border-2 border-transparent whitespace-nowrap hover:bg-gray-800 hover:border-yellow-400 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:border-white focus:ring-2 focus:ring-white/50 active:translate-y-0"
             style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
             aria-label={`View ${navLinks[6].name}`}
           >

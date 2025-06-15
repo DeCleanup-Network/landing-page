@@ -18,12 +18,12 @@ const Hero = () => {
         </h2>
         <div className="w-full mb-6 flex flex-col items-center sm:gap-y-2 gap-y-1">
           <p className="xl:bg-[#FAFF00] text-center mx-auto px-2 w-fit leading-[1]">
-            <span className="bg-[#FAFF00] xl:w-fit w-full px-1 text-center xl:bg-transparent text-5xl">
+            <span className="bg-[#FAFF00] xl:w-fit w-full px-1 text-center xl:bg-transparent md:text-5xl">
               mission: to build a global network of coordinated environmental action {" "}
             </span>
         
           </p>
-          <p className="text-center w-fit max-w-[98ch] md:mt-5 text-5xl">
+          <p className="text-center w-fit max-w-[98ch] mt-5 text-5xl">
             by tokenizing real-world cleanup outcomes as Impact Products -
             onchain dynamic assets that capture, quantify, and verify
             environmental impact. We connect individuals, grassroots groups, and
