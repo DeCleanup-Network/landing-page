@@ -76,14 +76,14 @@ const TokenizeImpactSection = () => {
         {/* CTA Section */}
         <div className="text-center md:space-y-8   mt-12 lg:mt-16">
           {/* Get Started Button */}
-          <div className="w-full border-y border-black p-3">
+          <div className="w-full border-y border-black py-3">
             <button className=" bg-black w-full hover:bg-black/80  text-[#FAFF00] font-black text-xl lg:text-5xl uppercase px-8 lg:px-12 py-4 lg:py-5  hover:shadow-2xl shadow-lg transform">
               Get Started
             </button>
           </div>
           {/* Join Movement Section */}
           <div className="space-y-6 lg:space-y-8">
-            <div className="text-5xl sm:text-5xl lg:text-[190px]  text-black uppercase ">
+            <div className="text-5xl mt-2 sm:text-5xl lg:text-[190px]  text-black uppercase ">
               Join the Movement
             </div>
 
@@ -94,7 +94,7 @@ const TokenizeImpactSection = () => {
             </p>
 
             {/* Social Buttons */}
-            <div className="flex border-t border-black flex-col sm:flex-row gap-4 lg:gap-6 p-4 items-center">
+            <div className="flex border-t border-black flex-col sm:flex-row gap-4 lg:gap-6 py-4 items-center">
               <Link href={'https://t.me/EcoSynthesisX/443'} className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1">
                 Telegram
               </Link>

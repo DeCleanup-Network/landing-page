@@ -197,7 +197,7 @@ export default function WhatIsDeCleanupNetwork() {
 
         {/* Problem-Solution Content Side by Side */}
         <div className="grid grid-cols-2 gap-0 min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]">
-          <div className="border-r-2 border-black">
+          <div className="">
             <ProblemSection hideHeader={true} />
           </div>
           <div>
