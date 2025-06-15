@@ -89,7 +89,7 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
             >
               {solution.title}
             </h3>
-            <p className="text-[#58B12F] text-sm md:text-lg  text-start lg:text-2xl  leading-relaxed">
+            <p className="text-[#58B12F] text-sm md:text-lg  text-start lg:text-4xl  leading-relaxed">
               {solution.description}
             </p>
           </div>

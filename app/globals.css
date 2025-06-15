@@ -46,11 +46,7 @@ h2 {
   line-height: 1;
 }
 
-p {
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 1;
-}
+
 
 @media (max-width: 640px) {
   h1 {

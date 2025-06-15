@@ -117,7 +117,7 @@ const NetworkRoadmapSection = () => {
                     {item.phase}
                   </h3>
                   <p
-                    className="text-[#58B12F] text-lg lg:text-2xl 2xl:text-3xl 3xl:text-4xl font-normal mb-10  leading-tight lowercase md:mb-16"
+                    className="text-[#58B12F] text-lg md:text-3xl lg:text-xl 2xl:text-4xl  font-normal mb-10  leading-tight lowercase md:mb-16"
                     style={{ letterSpacing: "-0.03em" }}
                   >
                     {item.description}
@@ -137,7 +137,7 @@ const NetworkRoadmapSection = () => {
                       {item.version}
                     </h4>
                     <ul
-                      className="text-[#58B12F] text-lg lg:text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mb-5 leading-tight lowercase"
+                      className="text-[#58B12F] text-lg lg:text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mb-5 leading-tight lowercase font-family-bebas"
                       style={{
                         fontFamily: "Bebas Neue",
                         letterSpacing: "-0.02em",
@@ -504,7 +504,7 @@ const NetworkRoadmapSection = () => {
               <h4 className="text-[#FAFF00] text-2xl sm:text-2xl lg:text-3xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl mb-2 font-extrabold text-left leading-tight uppercase">
                 HEM JAPAN
               </h4>
-              <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-lg 3xl:text-xl font-extrabold leading-relaxed text-left uppercase">
+              <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-4xl 3xl:text-xl font-extrabold leading-relaxed text-left uppercase">
                 ONE OF OUR EARLIEST PARTNERS, THEY HAVE BEEN ACTIVELY ORGANIZING
                 AND VERIFYING CLEANUPS ACROSS JAPAN, USING DECLANUP SYSTEM AND
                 OTHER APPS TO TRACK AND RECOGNIZE IMPACT. <br />
@@ -517,7 +517,7 @@ const NetworkRoadmapSection = () => {
               <h4 className="text-[#FAFF00] text-3xl sm:text-2xl lg:text-3xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl mb-2 font-black uppercase text-left">
                 PESATHON
               </h4>
-              <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-lg 3xl:text-xl font-extrabold leading-tight text-left uppercase">
+              <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-4xl 3xl:text-xl font-extrabold leading-tight text-left uppercase">
                 PESATHON CAMPAIGN, ORGANIZED BY UNNPLOGGAS IN UNIVERSITY IN
                 NIGERIA BROUGHT EDUCATION AND ACTION TOGETHER. FOR A WEEK,
                 STUDENTS WERE LEARNING ABOUT ENVIRONMENTAL CARE AND
@@ -544,7 +544,7 @@ const NetworkRoadmapSection = () => {
           {/* Main Quote Text */}
           <div className="relative text-black leading-relaxed pt-8 lg:pt-12 px-4 lg:px-8">
             <p
-              className="text-black text-left text-lg sm:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-normal mb-6 leading-tight uppercase tracking-tight"
+              className="text-black text-left text-lg sm:text-xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-normal mb-6 leading-tight uppercase tracking-tight"
               style={{
                 fontFamily: "Bebas Neue, Arial Black, sans-serif",
                 letterSpacing: "-0.02em",
@@ -566,7 +566,7 @@ const NetworkRoadmapSection = () => {
             <div className="flex justify-end items-center mt-8">
               <div className="text-right">
                 <p
-                  className="text-black font-bold text-sm lg:text-base uppercase tracking-wide"
+                  className="text-black font-bold text-sm lg:text-xl uppercase tracking-wide"
                   style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
                 >
                   YUICHI HOSONO — NEW JAPAN
