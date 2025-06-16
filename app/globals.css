@@ -14,7 +14,6 @@
   --color-foreground: var(--foreground);
   --font-family-bebas: var(--font-bebas), sans-serif;
   --font-family-nunito: var(--font-nunito), sans-serif;
-  
 }
 
 /* @media (prefers-color-scheme: dark) {
