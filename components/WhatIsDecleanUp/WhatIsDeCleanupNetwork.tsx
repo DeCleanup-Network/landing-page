@@ -101,10 +101,15 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
 
 export default function WhatIsDeCleanupNetwork() {
   return (
-    <div className="min-h-screen">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
-        {/* Horizontal Line Separator */}
-        <div className="hidden md:block w-full h-0.5 bg-black mb-8 lg:mb-12"></div>
+    <div className="h-full md:min-h-screen pb-4">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8  lg:py-4">
+
+      
+        <div className="w-full flex justify-center mb-5 md:mb-10  items-center font-black text-black uppercase leading-relaxed drop-shadow-lg">
+          <div className="inline-block bg-[#FAFF00] text-2xl md:text-6xl lg:text-7xl px-2 font-medium">
+            What is DeCleanup Network?
+          </div>
+        </div>
 
         {/* Header Section - Title and Description Side by Side */}
         <div className="text-center flex flex-col md:flex-row lg:text-left mb-8 lg:mb-12">
@@ -116,103 +121,76 @@ export default function WhatIsDeCleanupNetwork() {
                 backgroundImage: "url('/image2.png')",
               }}
             ></div>
-            <div className="absolute top-0 left-0 flex flex-col items-start font-black text-black uppercase leading-relaxed drop-shadow-lg">
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-6xl lg:text-7xl  font-medium">
-                What is DeCleanup
-              </div>
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-6xl  lg:text-7xl  font-medium">
-                Network?
-              </div>
-            </div>
           </div>
-
-
-
-
-
-
-
-
-
 
           {/* Right: Description */}
-          <div className="md:w-[50%] pl-0 md:pl-4 lg:pl-8 mt-4 md:mt-0 flex flex-col">
-            <div className="space-y-4 md:space-y-6">
+          <div className="md:w-[50%] pl-0 md:pl-4 lg:pl-8 mt-4 md:mt-0 ">
+            <div className="space-y-4 md:space-y-6 flex flex-col h-full justify-between">
               <div className="font-black">
-                <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
-                  <span className="bg-[#FAFF00] text-left md:px-1">DECLEANUP</span> NETWORK
-                  IS A GLOBAL SYSTEM FOR COORDINATING ENVIRONMENTAL CLEANUPS AND
-                  TURNING THEM INTO LONG-LASTING DIGITAL IMPACT.
+                <div className="text-[#000000] text-xl md:text-4xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
+                  at DeCleanup Network we coordinate global environmental
+                  cleanups and turn them into lasting digital impact.
                 </div>
               </div>
 
               <div className="font-black">
                 <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
-                  IT CONNECTS INDIVIDUALS, GRASSROOTS GROUPS, AND PARTNER
-                  ORGANIZATIONS INTO A SHARED ECOSYSTEM, WHERE EVERY CLEANUP
-                  BECOMES PART OF A BROADER EFFORT TO REGENERATE THE PLANET.
+                  We connect participants and partners into a shared ecosystem
+                  where every cleanup becomes a part of broader planetary
+                  regeneration.
                 </div>
               </div>
 
               <div className="font-black">
                 <div className="text-[#000000] text-xl md:text-3xl text-left  lg:text-3xl xl:text-4xl leading-tight font-light">
-                  BY CONVERTING ACTIONS INTO ONCHAIN DYNAMIC IMPACT PRODUCTS, WE
-                  ENABLE RECOGNITION, TRACEABILITY, AND PARTICIPATION ACROSS
-                  REGIONS AND COMMUNITIES.
+                  By converting actions into onchain Impact Products, we enable
+                  recognition, traceability, and participation across regions.
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div className="hidden md:block">
+          {/* Horizontal Line Separator */}
+          <div className="w-full h-1 bg-black mb-8 lg:mb-12"></div>
 
-
-
-
-
-
-
-         <div className="hidden md:block">
-        {/* Horizontal Line Separator */}
-        <div className="w-full h-1 bg-black mb-8 lg:mb-12"></div>
-        
-        {/* Problem-Solution Headers with horizontal line */}
-        <div className="mb-8 lg:mb-12">
-          <div className="flex justify-center items-center">
-            <h2 
-              className="text-4xl lg:text-5xl xl:text-6xl font-black text-black whitespace-nowrap pr-8"
-              style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
-            >
-              THE PROBLEM
-            </h2>
-            <div className="flex-grow h-1 bg-black mx-4"></div>
-            <h2 
-              className="text-4xl lg:text-5xl xl:text-6xl font-black text-[#FAFF00] whitespace-nowrap pl-8"
-              style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
-            >
-              THE SOLUTION
-            </h2>
+          {/* Problem-Solution Headers with horizontal line */}
+          <div className="mb-8 lg:mb-12">
+            <div className="flex justify-center items-center">
+              <h2
+                className="text-4xl lg:text-5xl xl:text-6xl font-black text-black whitespace-nowrap pr-8"
+                style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
+              >
+                THE PROBLEM
+              </h2>
+              <div className="flex-grow h-1 bg-black mx-4"></div>
+              <h2
+                className="text-4xl lg:text-5xl xl:text-6xl font-black text-[#FAFF00] whitespace-nowrap pl-8"
+                style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
+              >
+                THE SOLUTION
+              </h2>
+            </div>
           </div>
-        </div>
 
-        {/* Problem-Solution Content Side by Side */}
-        <div className="grid grid-cols-2 gap-0 min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]">
-          <div className="">
-            <ProblemSection hideHeader={true} />
+          {/* Problem-Solution Content Side by Side */}
+          <div className="grid grid-cols-2 gap-0 min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]">
+            <div className="">
+              <ProblemSection hideHeader={true} />
+            </div>
+            <div>
+              <SolutionSection hideHeader={true} />
+            </div>
           </div>
-          <div>
-            <SolutionSection hideHeader={true} />
-          </div>
-        </div>
-
         </div>
 
         {/* Mobile Layout: Stacked with vertical line */}
         <div className="block md:hidden">
           {/* Mobile Problem Section */}
           <div className="mb-8">
-            <div className="mb-6 text-left"> 
-              <h2 className="text-4xl sm:text-5xl font-bold text-black">
+            <div className="mb-6 text-center ">
+              <h2 className="text-4xl sm:text-5xl font-bold text-black bg-[#FAFF00] inline-block p-2">
                 THE PROBLEM
               </h2>
             </div>
@@ -231,8 +209,8 @@ export default function WhatIsDeCleanupNetwork() {
 
           {/* Mobile Solution Section */}
           <div>
-            <div className="mb-6 text-left md:text-center">
-              <h2 className="text-4xl sm:text-5xl font-bold text-[#FAFF00]">
+            <div className="mb-6 text-center">
+              <h2 className="text-4xl sm:text-5xl font-bold text-black bg-[#FAFF00] inline-block p-2">
                 THE SOLUTION
               </h2>
             </div>

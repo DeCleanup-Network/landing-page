@@ -416,7 +416,7 @@ const NetworkRoadmapSection = () => {
 
       {/* Yellow Background Section */}
       <div
-        className="relative w-full bg-[#FAFF00] px-4 sm:px-6 lg:px-9 2xl:px-16 3xl:px-32"
+        className="relative w-full px-4 sm:px-6 lg:px-9 2xl:px-16 3xl:px-32"
         style={{ position: "relative" }}
       >
         {/* Gallery with responsive margins */}
@@ -476,23 +476,22 @@ const NetworkRoadmapSection = () => {
           {/* Header Section - Title and Description side by side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 2xl:gap-12 3xl:gap-16 mb-8 2xl:mb-12 3xl:mb-16 3xl:mt-50">
             <div>
-              <h3 className="text-4xl sm:text-3xl lg:text-7xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-left font-light uppercase text-black md:mb-15 mt-2 leading-tight">
+              <h3 className="text-4xl sm:text-3xl inline md:block lg:text-7xl xl:text-6xl  2xl:text-7xl 3xl:text-8xl bg-[#FAFF00] md:bg-transparent  md:text-left font-light uppercase text-black md:mb-15 mt-2 md:mt-0 leading-tight">
                 COMMUNITY IMPACT
               </h3>
             </div>
             <div>
               <p
-                className="text-black text-left sm:text-lg lg:text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mb-4 md:mt-2 leading-tight uppercase"
+                className="text-black text-center md:text-left  sm:text-lg lg:text-3xl 2xl:text-4xl 3xl:text-5xl font-normal mb-4 md:mt-2 leading-tight uppercase"
                 style={{
                   fontFamily: "Bebas Neue",
                   letterSpacing: "-0.02em",
                   lineHeight: "102%",
                 }}
               >
-                ACROSS THE WORLD, INDIVIDUALS AND PARTNERS ARE USING DECLANUP
-                DAPP TO TURN EVERYDAY ACTIONS INTO VERIFIED ENVIRONMENTAL
-                IMPACT. THEIR STORIES SHOW WHAT IS POSSIBLE WHEN CLEANUPS GO
-                ONCHAIN.
+                participants worldwide use DeCleanup dApp to turn real world
+                impact into onchain products with additional utilities within
+                the ecosystem in the future.
               </p>
             </div>
           </div>
@@ -505,26 +504,21 @@ const NetworkRoadmapSection = () => {
                 HEM JAPAN
               </h4>
               <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-4xl 3xl:text-xl font-extrabold leading-relaxed text-left uppercase">
-                ONE OF OUR EARLIEST PARTNERS, THEY HAVE BEEN ACTIVELY ORGANIZING
-                AND VERIFYING CLEANUPS ACROSS JAPAN, USING DECLANUP SYSTEM AND
-                OTHER APPS TO TRACK AND RECOGNIZE IMPACT. <br />
-                IN 2024 12 ACTIVE USERS, 9 CLEANUP EVENTS REGISTERED
+                Early partner organizing cleanups across Japan using DeCleanup's
+                verification system. 2024: 12 active users, 9 cleanup events
               </p>
             </div>
 
             {/* Pestathon - taller card */}
-            <div className="bg-black text-[#4FA02A] p-6 lg:p-8 2xl:p-10 3xl:p-12 rounded-none">
+            <div className="bg-black text-[#4FA02A] p-4 lg:p-6 2xl:p-8 3xl:p-10 rounded-none">
               <h4 className="text-[#FAFF00] text-3xl sm:text-2xl lg:text-3xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl mb-2 font-black uppercase text-left">
                 PESATHON
               </h4>
               <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-4xl 3xl:text-xl font-extrabold leading-tight text-left uppercase">
-                PESATHON CAMPAIGN, ORGANIZED BY UNNPLOGGAS IN UNIVERSITY IN
-                NIGERIA BROUGHT EDUCATION AND ACTION TOGETHER. FOR A WEEK,
-                STUDENTS WERE LEARNING ABOUT ENVIRONMENTAL CARE AND
-                ACCOMPLISHING CLEANUPS AT THE CAMPUS AND SURROUNDINGS. DECLANUP
-                NETWORK PROVIDED ADDITIONAL 120 USDGLO TO THE REWARDS POOL ON
-                ATLANTIS IMPACT MINER. <br />
-                IN 2024 9 ACTIVE USERS AND 4 CLEANUP EVENTS REGISTERED.
+                UNNPloggas university campaign combining education + action.
+                Students learned environmental care while cleaning campus.
+                DeCleanup added 120 USDGLO to Atlantis Impact Miner
+                rewards. 2024: 9 active users, 4 cleanup events
               </p>
             </div>
           </div>
@@ -533,16 +527,16 @@ const NetworkRoadmapSection = () => {
         <div className="w-full h-0.5 bg-black mb-4 lg:mb-9 2xl:mb-12 3xl:mb-16"></div>
 
         {/* Quote Section with responsive typography */}
-        <div className=" p-6 lg:p-8 2xl:p-10 3xl:p-12 rounded-xl mb-0 relative">
+        <div className=" py-6 lg:p-8 2xl:p-10 3xl:p-12 rounded-xl mb-0 relative">
           {/* Opening Quote Mark */}
-          <div className="absolute top-4 left-4 lg:top-6 lg:left-6">
+          <div className="absolute top-4 left lg:top-6 lg:left-6">
             <span className="text-6xl lg:text-8xl font-black text-black leading-none opacity-60">
               &quot;
             </span>
           </div>
 
           {/* Main Quote Text */}
-          <div className="relative text-black leading-relaxed pt-8 lg:pt-12 px-4 lg:px-8">
+          <div className="relative text-black leading-relaxed pt-8 lg:pt-12">
             <p
               className="text-black text-left text-lg sm:text-xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-normal mb-6 leading-tight uppercase tracking-tight"
               style={{
@@ -551,22 +545,17 @@ const NetworkRoadmapSection = () => {
                 lineHeight: "1.1",
               }}
             >
-              I ENCOURAGE YOU TO DIVE IN DECLEANUP DAPP! FIND A COMMUNITY WHERE
-              YOU CAN ENJOY CONTRIBUTING TO SOCIETY. AT DECLEANUP EVEN PICKING
-              UP A SINGLE PLASTIC BOTTLE IN YOUR DAILY LIFE CAN TRANSFORM INTO A
-              FUN ACTIVITY. BY TAKING A SNAPSHOT OF YOUR ACTION, YOU CAN TURN
-              THAT INTO A REWARD! START BY TAKING ACTION, SNAPPING A PHOTO, AND
-              RECEIVING REWARDS. THEN, LEARN ABOUT WEB3 TECHNOLOGY TO ACTIVATE
-              THOSE REWARDS. DECLEANUP EMPLOYS THE MOST SIMPLIFIED SYSTEM
-              I&apos;VE ENCOUNTERED IN DAPPS, MAKING IT EASIER FOR PEOPLE TO
-              PARTICIPATE IN ENVIRONMENTAL PROTECTION ACTIVITIES.
+              DeCleanup employs the most simplified system I've encountered in
+              dApps, making it easier for people to participate in environmental
+              protection activities. Even picking up a single plastic bottle can
+              transform into rewards!
             </p>
 
             {/* Attribution */}
-            <div className="flex justify-end items-center mt-8">
+            <div className="flex justify-end items-center mt-2">
               <div className="text-right">
                 <p
-                  className="text-black font-bold text-sm lg:text-xl uppercase tracking-wide"
+                  className="text-black font-bold text-[10px] lg:text-base uppercase tracking-wide"
                   style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
                 >
                   YUICHI HOSONO — NEW JAPAN
@@ -576,12 +565,14 @@ const NetworkRoadmapSection = () => {
           </div>
 
           {/* Closing Quote Mark */}
-          <div className="absolute bottom-4 right-4 lg:bottom-6 lg:right-6">
+          <div className="absolute bottom- right-4 lg:bottom-6 lg:right-6">
             <span className="text-6xl lg:text-8xl font-black text-black leading-none opacity-60">
               &quot;
             </span>
           </div>
         </div>
+
+        <div className="w-full h-0.5 bg-black mb-4 lg:mb-9 2xl:mb-12 3xl:mb-16"></div>
       </div>
     </div>
   );

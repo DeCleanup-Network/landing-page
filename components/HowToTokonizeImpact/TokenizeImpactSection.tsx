@@ -24,31 +24,25 @@ const TokenizeImpactSection = () => {
     },
   ];
 
-
   return (
     <div className="md:h-screen ">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
         {/* Hero Section */}
+        <div className="w-full flex flex-col items-center justify-center font-black text-black uppercase leading-relaxed drop-shadow-lg mb-6">
+          <div className="inline-block bg-[#FAFF00] text-2xl px-2 md:text-7xl  font-medium">
+            How to Tokenize Impact?
+          </div>
+        </div>
         <div className="text-center flex flex-col md:flex-row lg:text-left">
           {/* Left Content with Background Image */}
-            <div className="relative md:w-[50%] min-h-[300px] md:min-h-[400px]">
+          <div className="relative md:w-[50%] min-h-[300px] md:min-h-[400px]">
             <div
               className="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover"
               style={{
                 backgroundImage: "url('/image1.png')",
               }}
             ></div>
-            <div className="absolute top-0 left-0 flex flex-col items-start font-black text-black uppercase leading-relaxed drop-shadow-lg">
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl  font-medium">
-               How to Tokenize
-              </div>
-              <div className="inline-block bg-[#FAFF00] text-5xl md:text-8xl font-medium">
-               Impact?
-              </div>
-            </div>
           </div>
-
-        
 
           {/* Right Content - Steps */}
           <div className="space-y-4 lg:space-y-6 md:w-[50%] md:pl-4 lg:pl-8 mt-5 md:mt-0">
@@ -95,10 +89,16 @@ const TokenizeImpactSection = () => {
 
             {/* Social Buttons */}
             <div className="flex border-t border-black flex-col sm:flex-row gap-4 lg:gap-6 py-4 items-center">
-              <Link href={'https://t.me/EcoSynthesisX/443'} className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1">
+              <Link
+                href={"https://t.me/EcoSynthesisX/443"}
+                className="bg-black text-[#FAFF00] font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1"
+              >
                 Telegram
               </Link>
-              <Link href={'https://x.com/DeCleanupNet/status/1917591927563624903'} className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1">
+              <Link
+                href={"https://x.com/DeCleanupNet/status/1917591927563624903"}
+                className="bg-black text-[#FAFF00]  font-bold text-lg lg:text-5xl uppercase px-8 lg:px-10 py-3 lg:py-4 w-full transition-all duration-300 hover:scale-100 hover:shadow-xl shadow-md transform hover:-translate-y-1"
+              >
                 Twitter
               </Link>
             </div>
