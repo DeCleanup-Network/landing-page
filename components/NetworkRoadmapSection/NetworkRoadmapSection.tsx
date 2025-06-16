@@ -476,7 +476,7 @@ const NetworkRoadmapSection = () => {
           {/* Header Section - Title and Description side by side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 2xl:gap-12 3xl:gap-16 mb-8 2xl:mb-12 3xl:mb-16 3xl:mt-50">
             <div>
-              <h3 className="text-4xl sm:text-3xl inline md:block lg:text-7xl xl:text-6xl  2xl:text-7xl 3xl:text-8xl bg-[#FAFF00] md:bg-transparent  md:text-left font-light uppercase text-black md:mb-15 mt-2 md:mt-0 leading-tight">
+              <h3 className="text-4xl sm:text-3xl inline md: lg:text-7xl xl:text-6xl  2xl:text-7xl 3xl:text-8xl bg-[#FAFF00] md:bg-transparent  md:text-left font-light uppercase text-black md:mb-15 mt-2 md:mt-0 leading-tight">
                 COMMUNITY IMPACT
               </h3>
             </div>
@@ -504,8 +504,8 @@ const NetworkRoadmapSection = () => {
                 HEM JAPAN
               </h4>
               <p className="text-[#4FA02A] text-sm lg:text-base 2xl:text-4xl 3xl:text-xl font-extrabold leading-relaxed text-left uppercase">
-                Early partner organizing cleanups across Japan using DeCleanup's
-                verification system. 2024: 12 active users, 9 cleanup events
+                {`Early partner organizing cleanups across Japan using DeCleanup's
+  verification system. 2024: 12 active users, 9 cleanup events`}
               </p>
             </div>
 
@@ -545,10 +545,10 @@ const NetworkRoadmapSection = () => {
                 lineHeight: "1.1",
               }}
             >
-              DeCleanup employs the most simplified system I've encountered in
-              dApps, making it easier for people to participate in environmental
-              protection activities. Even picking up a single plastic bottle can
-              transform into rewards!
+              {`DeCleanup employs the most simplified system I've encountered in
+  dApps, making it easier for people to participate in environmental
+  protection activities. Even picking up a single plastic bottle can
+  transform into rewards!`}
             </p>
 
             {/* Attribution */}
