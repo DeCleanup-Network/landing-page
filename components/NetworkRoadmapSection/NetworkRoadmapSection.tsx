@@ -54,14 +54,15 @@ const NetworkRoadmapSection = () => {
   const galleryImages = [
     {
       src: "/decleanup-landingpage/testimonial1.jpg",
-      alt: "Community cleanup 1",
+      alt: "Community cleanup 11",
       className: "col-span-1 row-span-2",
     },
     {
-      src: "/testimonial2.jpg",
+      src: "/decleanup-landingpage/testimonial2.jpg",
       alt: "Community cleanup 2",
       className: "col-span-1 row-span-1",
     },
+
     {
       src: "/testimonial3.jpg",
       alt: "Community cleanup 3",
