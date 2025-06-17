@@ -519,7 +519,7 @@ const NetworkRoadmapSection = () => {
                 UNNPloggas university campaign combining education + action.
                 Students learned environmental care while cleaning campus.
                 DeCleanup added 120 USDGLO to Atlantis Impact Miner
-                rewards. 2024: 9 active users, 4 cleanup events
+                rewards.2024: 9 active users, 4 cleanup events
               </p>
             </div>
           </div>
