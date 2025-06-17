@@ -424,7 +424,7 @@ const NetworkRoadmapSection = () => {
         <div className="pt-5 mb-4 sm:mb-4 2xl:mb-4 3xl:mb-4">
           <div className="grid grid-cols-3 gap-2 2xl:gap-4 3xl:gap-6">
             {/* Large image on left - full height */}
-            <div className="col-span-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
+            <div className="col-span-1 rounded-lg overflow-hidden">
               <Image
                 width={600}
                 height={400}
@@ -436,7 +436,7 @@ const NetworkRoadmapSection = () => {
 
             {/* Middle column with two stacked images */}
             <div className="col-span-1 flex flex-col gap-2 2xl:gap-4 3xl:gap-6">
-              <div className="flex-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
+              <div className="flex-1 rounded-lg overflow-hidden">
                 <Image
                   src={galleryImages[1].src}
                   alt={galleryImages[1].alt}
@@ -446,7 +446,7 @@ const NetworkRoadmapSection = () => {
                 />
               </div>
 
-              <div className="flex-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
+              <div className="flex-1  rounded-lg overflow-hidden">
                 <Image
                   width={600}
                   height={400}
@@ -458,7 +458,7 @@ const NetworkRoadmapSection = () => {
             </div>
 
             {/* Large image on right - full height */}
-            <div className="col-span-1 bg-[#FAFF00] border-2 border-[#FAFF00] rounded-lg overflow-hidden">
+            <div className="col-span-1 rounded-lg overflow-hidden">
               <Image
                 width={600}
                 height={400}
@@ -477,7 +477,7 @@ const NetworkRoadmapSection = () => {
           {/* Header Section - Title and Description side by side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 2xl:gap-12 3xl:gap-16 mb-8 2xl:mb-12 3xl:mb-16 3xl:mt-50">
             <div>
-              <h3 className="text-4xl sm:text-3xl inline md:inline-block lg:text-7xl xl:text-6xl  2xl:text-7xl 3xl:text-8xl bg-[#FAFF00] md:bg-transparent  md:text-left font-light uppercase text-black md:mb-15 mt-2 md:mt-0 leading-tight">
+              <h3 className="text-4xl sm:text-3xl inline md:block lg:text-7xl xl:text-6xl  2xl:text-7xl 3xl:text-8xl bg-[#FAFF00] md:bg-transparent  md:text-left font-light uppercase text-black md:mb-15 mt-2 md:mt-0 leading-tight">
                 COMMUNITY IMPACT
               </h3>
             </div>

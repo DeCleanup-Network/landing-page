@@ -31,7 +31,7 @@ function ProblemSection({ hideHeader = false }: ProblemSectionProps) {
         {problems.map((problem, index) => (
           <div
             key={index}
-            className=" p-4 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] leading-6 xl:min-h-[320px] flex bg-[#4FA02A] items-center md:items-start "
+            className=" p-4 min-h-[100px] md:min-h-[180px] lg:min-h-[230px] xl:min-h-[290px] leading-6  flex bg-[#4FA02A] items-center md:items-start "
           >
             <h3
               className="text-xl font-normal md:text-xl text-left lg:text-3xl text-black leading-relaxed"
@@ -55,17 +55,17 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
     {
       title: "TOKENIZING IMPACT INTO IMPACT PRODUCTS",
       description:
-        "WE TURN EACH CLEANUP INTO A DYNAMIC ONCHAIN IMPACT PRODUCT - A VISIBLE, GROWING ASSET TIED TO REAL-WORLD ACTION. THIS CREATES LASTING VALUES AND RECOGNITION BEYOND THE MOMENT OF CLEANUP.",
+        "Turn each cleanup into a dynamic onchain Impact Product - visible, growing assets tied to real action. Creates lasting value beyond the cleanup moment.",
     },
     {
       title: "SCALABLE PERSONAL RECOGNITION SYSTEM",
       description:
-        "PARTICIPANTS EARN VISIBILITY AND STATUS THROUGH A SYSTEM DESIGNED TO REFLECT THEIR ENVIRONMENTAL CONTRIBUTIONS - UNLOCKING NEW LEVELS, METRICS, AND FUTURE BENEFITS BASED ON THEIR ACTIONS.",
+        "Earn visibility and status reflecting actual environmental contributions. Unlock levels, metrics, and benefits based on your actions.",
     },
     {
       title: "GLOBAL NETWORK OF COORDINATED ACTION",
       description:
-        "THROUGH OUR AMBASSADOR PROGRAM, PARTNER COMMUNITIES, AND DECENTRALIZED TECH, WE CONNECT LOCAL CLEANUP EFFORTS INTO ONE SHARED ECOSYSTEM - ALIGNED, VISIBLE, AND SCALABLE ACROSS BORDERS",
+        "Ambassador program + partner communities + decentralized tech = local efforts connected into one shared, scalable ecosystem",
     },
   ];
 
@@ -81,15 +81,15 @@ function SolutionSection({ hideHeader = false }: SolutionSectionProps) {
         {solutions.map((solution, index) => (
           <div
             key={index}
-            className="bg-[#111111] p-4 flex items-start flex-col  backdrop-blur-sm border border-white/10 min-h-[120px] md:min-h-[200px] lg:min-h-[280px] xl:min-h-[320px]"
+            className="bg-[#111111] p-4 flex items-start flex-col  backdrop-blur-sm border border-white/10 min-h-[100px] md:min-h-[180px] lg:min-h-[230px] xl:min-h-[290px]"
           >
             <h3
-              className="text-[#FAFF00] text-left md:text-center text-4xl md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
+              className="text-[#FAFF00] text-left md:text-center text-2xl md:text-2xl lg:text-4xl font-bold uppercase mb-2 lg:mb-3 my-3"
               style={{ fontFamily: "Bebas Neue, sans-serif" }}
             >
               {solution.title}
             </h3>
-            <p className="text-[#58B12F] text-sm md:text-lg  text-start lg:text-4xl  leading-relaxed">
+            <p className="text-[#58B12F] text-sm md:text-lg  text-start  lg:text-3xl  xl:text-4xl leading-relaxed">
               {solution.description}
             </p>
           </div>
@@ -103,8 +103,6 @@ export default function WhatIsDeCleanupNetwork() {
   return (
     <div className="h-full md:min-h-screen pb-4">
       <div className="mx-auto px-4 sm:px-6 lg:px-8  lg:py-4">
-
-      
         <div className="w-full flex justify-center mb-5 md:mb-10  items-center font-black text-black uppercase leading-relaxed drop-shadow-lg">
           <div className="inline-block bg-[#FAFF00] text-2xl md:text-6xl lg:text-7xl px-2 font-medium">
             What is DeCleanup Network?
@@ -198,7 +196,7 @@ export default function WhatIsDeCleanupNetwork() {
             {/* Problem content with vertical line */}
             <div className="relative">
               {/* Vertical line at the left edge */}
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-black z-0"></div>
+              <div className="absolute left-4 top-0 bottom-0 w-1 bg-black z-0"></div>
 
               {/* Problem items */}
               <div className="relative z-10 pl-6">

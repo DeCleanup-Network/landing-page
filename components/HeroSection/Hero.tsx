@@ -20,7 +20,7 @@ const Hero = () => {
                 Empowering Cleanups. tokenizing impact
             </span>
           </p>
-          <p className="text-center w-fit max-w-[98ch] mt-5 text-5xl leading-16">
+          <p className="text-center w-fit max-w-[98ch] mt-5 text-5xl leading-14">
             Build a global network of environmental action by tokenizing cleanup
             outcomes of individuals, grassroots groups and ngos as Impact
             Products - onchain commodities that capture, verify and reward their
@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <Divider className="mt-6 md:mt-16" />
+      <Divider className="mt-6 md:mt-14" />
       <div className="sm:px-5 px-2 mb-4  w-full">
         <Button className="hover:bg-black/80">GET STARTED</Button>
       </div>
