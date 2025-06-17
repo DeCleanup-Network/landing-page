@@ -118,7 +118,7 @@ export default function WhatIsDeCleanupNetwork() {
             <div
               className="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover"
               style={{
-                backgroundImage: "url('/image2.png')",
+                backgroundImage: "url('/decleanup-landingpage/image2.png')",
               }}
             ></div>
           </div>
