@@ -39,7 +39,7 @@ const TokenizeImpactSection = () => {
             <div
               className="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover"
               style={{
-                backgroundImage: "url('/decleanup-landingpage/image1.png')",
+                backgroundImage: "url('/image1.png')",
               }}
             ></div>
           </div>

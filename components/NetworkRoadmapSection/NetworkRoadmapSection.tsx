@@ -64,12 +64,12 @@ const NetworkRoadmapSection = () => {
     },
 
     {
-      src: "/decleanup-landingpage/testimonial3.jpg",
+      src: "/testimonial3.jpg",
       alt: "Community cleanup 3",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/decleanup-landingpage/testimonial4.jpg",
+      src: "/testimonial4.jpg",
       alt: "Community cleanup 4",
       className: "col-span-1 row-span-2",
     },
