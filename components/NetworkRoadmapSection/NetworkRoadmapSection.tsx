@@ -560,7 +560,7 @@ const NetworkRoadmapSection = () => {
                   className="text-black font-normal text-[10px] lg:text-xl  uppercase tracking-wide"
                   style={{ fontFamily: "Bebas Neue, Arial Black, sans-serif" }}
                 >
-                  YUICHI HOSONO — NEW JAPAN
+                  YUICHI HOSOMO — NEW JAPAN
                 </p>
               </div>
             </div>
