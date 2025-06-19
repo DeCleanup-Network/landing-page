@@ -3,7 +3,7 @@ import Divider from "../ui/Divider";
 
 const Hero = () => {
   return (
-    <div className="flex h-screen flex-col items-center  md:m-h-screen">
+    <div className="flex flex-col items-center  md:m-h-screen">
       <div className="flex flex-col w-full items-end xl:px-5 px-2">
         <span className="xl:text-[36.82px] py-2 text-2xl">
           CLEAN UP, SNAP, EARN
