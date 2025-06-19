@@ -3,7 +3,7 @@ import Divider from "../ui/Divider";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center  md:m-h-screen">
+    <div className="h-screen flex flex-col items-center md:m-h-screen">
       <div className="flex flex-col w-full items-end xl:px-5 px-2">
         <span className="xl:text-[36.82px] py-2 text-2xl">
           CLEAN UP, SNAP, EARN
@@ -21,7 +21,7 @@ const Hero = () => {
               Empowering Cleanups. tokenizing impact
             </span>
           </p>
-          <p className="text-center w-fit text-2xl max-w-[98ch] mt-5 font-normal font-family-bebas md:text-4xl md:leading-14">
+          <p className="text-center w-fit text-[23px] max-w-[98ch] mt-5 font-normal font-family-bebas md:text-4xl md:leading-14">
             Build a global network of environmental action by tokenizing cleanup
             outcomes of individuals, grassroots groups and ngos as Impact
             Products - onchain commodities that capture, verify and reward their

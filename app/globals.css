@@ -33,11 +33,11 @@ body {
   font-family: var(--font-bebas), sans-serif;
 }
 
-h1 {
+/* h1 {
   font-weight: 400;
   font-size: calc(100vw / 6.67);
   line-height: 1;
-}
+} */
 
 h2 {
   font-weight: 400;
@@ -48,13 +48,13 @@ h2 {
 
 
 @media (max-width: 640px) {
-  h1 {
+  /* h1 {
     font-size: calc(100vw / 3.67);
     line-height: 0.8;
     font-weight: 400;
-  }
+  } */
   
-  h2 {
+  /* h2 {
     font-weight: 400;
     font-size: 40px;
     line-height: 0.8;
@@ -64,6 +64,6 @@ h2 {
     font-weight: 400;
     font-size: calc(100vw / 14.67);
     line-height: 1.12;
-  }
+  } */
 }
 

@@ -110,7 +110,7 @@ export default function WhatIsDeCleanupNetwork() {
         </div>
 
         {/* Header Section - Title and Description Side by Side */}
-        <div className="text-center flex flex-col md:flex-row lg:text-left mb-8 lg:mb-12">
+        <div className=" text-center flex flex-col md:flex-row lg:text-left mb-8 lg:mb-12">
           {/* Left: Title with background image */}
           <div className="relative md:w-[50%] min-h-[300px] md:min-h-[400px]">
             <div
