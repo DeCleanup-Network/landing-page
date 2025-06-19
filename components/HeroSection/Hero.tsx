@@ -3,7 +3,7 @@ import Divider from "../ui/Divider";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex flex-col items-center md:m-h-screen">
+    <div className="flex flex-col items-center md:m-h-screen">
       <div className="flex flex-col w-full items-end xl:px-5 px-2">
         <span className="xl:text-[36.82px] py-2 text-2xl">
           CLEAN UP, SNAP, EARN
@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <Divider className="mt-6 md:mt-12"/>
+      <Divider className="mt-6 md:mt-12" />
       <div className="sm:px-5 px-2 mb-4  w-full">
         <Button className="hover:bg-black/80">GET STARTED</Button>
       </div>
