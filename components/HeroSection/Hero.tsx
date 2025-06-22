@@ -4,7 +4,7 @@ import Divider from "../ui/Divider";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center md:m-h-screen">
-      <div className="flex flex-col w-full items-end xl:px-5 px-2">
+      <div className="flex flex-col w-full items-end">
         <span className="xl:text-[36.82px] py-2 text-2xl">
           CLEAN UP, SNAP, EARN
         </span>
@@ -14,7 +14,7 @@ const Hero = () => {
         DECLEANUP NETWORK
       </h1>
       <Divider />
-      <div className="sm:px-5 px-2 w-full">
+      <div className="w-full">
         <div className="w-full mb-6 flex flex-col items-center sm:gap-y-2 gap-y-1">
           <p className="xl:bg-[#FAFF00] text-2xl text-center mt-4 mx-auto px-2 w-fit leading-[1]">
             <span className="bg-[#FAFF00] xl:w-fit text-2xl w-full px-1 text-center xl:bg-transparent md:text-7xl">
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
       <Divider className="mt-6 md:mt-12" />
-      <div className="sm:px-5 px-2 mb-4  w-full">
+      <div className="mb-4 w-full">
         <Button className="hover:bg-black/80">GET STARTED</Button>
       </div>
       <Divider />

@@ -27,7 +27,7 @@ const galleryImages = [
 
 export default function CommunityImpact() {
   return (
-    <div className="py-8 sm:py-12 lg:py-16 2xl:py-20 3xl:py-24 px-4 sm:px-6 lg:px-8 2xl:px-12 3xl:px-16">
+    <div>
       {/* Gallery with responsive margins */}
       <div className="pt-5 mb-4 sm:mb-4 2xl:mb-4 3xl:mb-4">
         <div className="grid grid-cols-3 gap-2 2xl:gap-4 3xl:gap-6">

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function WhatIsDeCleanupNetwork() {
   return (
-    <div className="md:min-h-screen pb-4 pt-10">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8  lg:py-4">
+    <div className="md:min-h-screen">
+      <div className="mx-auto lg:py-4">
         <div className="w-full flex justify-center mb-5 md:mb-10  items-center font-black text-black uppercase leading-relaxed drop-shadow-lg">
           <div className="inline-block bg-[#FAFF00] text-2xl md:text-6xl lg:text-7xl px-2 font-medium">
             What is DeCleanup Network?
