@@ -24,7 +24,7 @@ jobs:
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          token: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
-          preview-branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+          preview-branch: main
           source-dir: ./out
           action: auto
