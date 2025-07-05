@@ -7,7 +7,7 @@ interface DividerProps {
 const Divider: React.FC<DividerProps> = ({ className = '' }) => {
   return (
     <div 
-      className={`w-full h-[1px] block bg-black mb-4 ${className}`}
+      className={`w-full h-[1px] block bg-black  ${className}`}
       aria-hidden="true" 
     />
   );

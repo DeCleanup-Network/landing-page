@@ -48,22 +48,6 @@ h2 {
 
 
 @media (max-width: 640px) {
-  /* h1 {
-    font-size: calc(100vw / 3.67);
-    line-height: 0.8;
-    font-weight: 400;
-  } */
-  
-  /* h2 {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 0.8;
-  }
-  
-  p {
-    font-weight: 400;
-    font-size: calc(100vw / 14.67);
-    line-height: 1.12;
-  } */
+ 
 }
 
