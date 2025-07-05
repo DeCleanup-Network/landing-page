@@ -49,4 +49,4 @@ jobs:
         with:
           header: preview-url
           message: |
-            🚀 Preview deployed: https://<your-username>.github.io/pr-preview/pr-${{ github.event.pull_request.number }}
+            🚀 Preview deployed: https://decleanup-network.github.io/pr-preview/pr-${{ github.event.pull_request.number }}
