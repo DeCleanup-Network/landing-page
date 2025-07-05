@@ -42,6 +42,8 @@ jobs:
           publish_dir: ./out
           destination_dir: pr-preview/pr-${{ github.event.pull_request.number }}
           publish_branch: gh-pages
+          pages: write
+          id-token: write
 
       - name: Comment PR with Preview URL
         uses: marocchino/sticky-pull-request-comment@v2
